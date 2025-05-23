@@ -92,3 +92,12 @@ footer p:hover {
 nav a:hover {
     color: rgb(80, 80, 80);
 }
+
+input.contato {
+    font: normal Arial 15pt;
+    size: 18pt;
+}
+
+.enviar {
+    font: normal Arial 15pt;
+}
