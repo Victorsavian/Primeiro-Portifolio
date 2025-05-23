@@ -25,13 +25,21 @@
         </div>
     
         <main>
-            <div class="info"> <!-- Formulário disponibilizado pelo site FormSubmit, e personalizado-->
-                <form action="https://formsubmit.co/victorssneves@gmail.com" method="POST">
-                <input class="nomecontato" type="text" name="name" required>
-                <input class="emailcontato" type="email" name="email" required>
-                <button class="enviar" type="submit">Enviar</button>
-                <input type="hidden" name="_captcha" value="false">
-                <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
+            <h1>Informações de Contato</h1>
+            <div class="info"> 
+                <p class="whatsapp">(11)95556-2674<img src="img/whatsapp.svg" alt="" class="whatsapp"></p>
+                
+                <!-- Formulário disponibilizado pelo site FormSubmit, e personalizado-->
+                 <form action="https://formsubmit.co/victorssneves@gmail.com" method="POST" class="form">
+                    <label for="txtnome">Nome:</label>
+                    <input id="txtnome" type="text" name="name" required>
+                    <label for="txtemail">Emai:</label>
+                    <input id="txtemail" type="email" name="email" required>
+                    <label for="txtmensagem">Texto:</label>
+                    <textarea name="message" id="txtmensagem" placeholder="Deixe sua mensagem aqui..." required></textarea>
+                    <button class="enviar" type="submit" onclick="enviar()">Enviar</button>
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
             </form>
         </main>
         
