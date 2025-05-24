@@ -108,8 +108,20 @@ input.contato {
 .form textarea,
 .form button {
     display: block;
-    width: 300px;
+    width: 60%;
+    max-width: 900px;
+    height: 30px;
     margin: auto;
+    border-radius: 10px;
+    box-shadow: 5, 5, black;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+}
+
+.form button {
+    width: 62%;
+    max-width: 910px;
 }
 
 .form textarea {
@@ -121,6 +133,7 @@ input.contato {
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 10px;
 }
+
 
 img.whatsapp{
     width: 30px;
