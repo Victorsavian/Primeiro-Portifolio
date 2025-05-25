@@ -37,7 +37,7 @@ h2 {
     font: normal 18pt sans-serif;
 }
 
-.info {
+div.info {
     background-color: rgb(88, 88, 88);
     border-radius: 10px;
     padding: 12px;
@@ -46,7 +46,7 @@ h2 {
     box-shadow: 3px 3px 10px rgb(80, 80, 80);
 }
 
-.info p {
+div.info p {
     margin: 10px 200px;
     padding-bottom: 15px;    
     text-align: center;
@@ -108,36 +108,45 @@ input.contato {
 .form textarea,
 .form button {
     display: block;
+    margin: auto;
+    margin-top: 5px;
     width: 60%;
     max-width: 900px;
-    height: 30px;
-    margin: auto;
+    height: 35px;
     border-radius: 10px;
     box-shadow: 7, 7, 7, black;
-    margin-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16pt;
+    font-size: 18pt;
 }
 
 .form button {
     width: 62%;
     max-width: 910px;
+    margin-bottom: 20px;
 }
 
 .form textarea {
     height: 100px;
 }
 
-label.name,
-label.email,
-label.
-
 .form {
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 10px;
+    justify-content: center;
 }
 
+h1.h1contato {
+    font-size: 35pt;
+}
+
+p.descriçãocontato {
+    font-size: 24pt;
+}
+
+p.whatsapp {
+    font-size: 18pt;
+}
 
 img.whatsapp{
     width: 30px;

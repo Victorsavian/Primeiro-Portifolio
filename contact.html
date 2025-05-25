@@ -25,22 +25,30 @@
         </div>
     
         <main>
-            <h1>Informações de Contato</h1>
-            <div class="info"> 
-                <p class="whatsapp">(11)95556-2674<img src="img/whatsapp.svg" alt="" class="whatsapp"></p>
+            <h1 class="h1contato">Informações de Contato</h1>
+            <div class="info">
+                <p class="descriçãocontato"><strong>Você pode deixar seu contato por email abaixo.</strong></p>
+                
                 
                 <!-- Formulário disponibilizado pelo site FormSubmit, e personalizado-->
                  <form action="https://formsubmit.co/victorssneves@gmail.com" method="POST" class="form">
-                    <label id="name" for="txtnome">Nome:</label>
+                    <label id="name" for="txtnome"><strong>Nome:</strong></label>
                     <input id="txtnome" type="text" name="name" required>
-                    <label id="email" for="txtemail">Emai:</label>
+
+                    <label id="email" for="txtemail"><strong>Emai:</strong></label>
                     <input id="txtemail" type="email" name="email" required>
-                    <label id="message" for="txtmensagem">Texto:</label>
+
+                    <label id="message" for="txtmensagem"><strong>Texto:</strong></label>
                     <textarea name="message" id="txtmensagem" placeholder="Deixe sua mensagem aqui..." required></textarea>
-                    <button class="enviar" type="submit" onclick="enviar()">Enviar</button>
+
+                    <button class="enviar" type="submit" onclick="enviar()"><strong>Enviar</strong></button>
+
                     <input type="hidden" name="_captcha" value="false">
                     <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
             </form>
+
+            <p class="descriçãocontato"><strong>Ou entre em contato no número abaixo:</strong></p>
+                <p class="whatsapp">(11)95556-2674<img src="img/whatsapp.svg" alt="" class="whatsapp"></p>
         </main>
         
         <footer>
