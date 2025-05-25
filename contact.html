@@ -31,11 +31,11 @@
                 
                 <!-- Formulário disponibilizado pelo site FormSubmit, e personalizado-->
                  <form action="https://formsubmit.co/victorssneves@gmail.com" method="POST" class="form">
-                    <label for="txtnome">Nome:</label>
+                    <label id="name" for="txtnome">Nome:</label>
                     <input id="txtnome" type="text" name="name" required>
-                    <label for="txtemail">Emai:</label>
+                    <label id="email" for="txtemail">Emai:</label>
                     <input id="txtemail" type="email" name="email" required>
-                    <label for="txtmensagem">Texto:</label>
+                    <label id="message" for="txtmensagem">Texto:</label>
                     <textarea name="message" id="txtmensagem" placeholder="Deixe sua mensagem aqui..." required></textarea>
                     <button class="enviar" type="submit" onclick="enviar()">Enviar</button>
                     <input type="hidden" name="_captcha" value="false">
